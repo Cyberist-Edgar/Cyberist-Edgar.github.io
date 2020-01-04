@@ -34,8 +34,8 @@ particlesJS('particles-js',
         "random": false,
         "anim": {
           "enable": false,
-          "speed": 1,
-          "opacity_min": 0.1,
+          "speed": 2,
+          "opacity_min": 0.3,
           "sync": false
         }
       },
@@ -62,7 +62,7 @@ particlesJS('particles-js',
         "direction": "none",
         "random": false,
         "straight": false,
-        "out_mode": "out",  // or bounce
+        "out_mode": "out",  // out or bounce
         "attract": {
           "enable": false,
           "rotateX": 600,
