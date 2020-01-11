@@ -435,16 +435,94 @@ footer{
   margin-bottom: 10px;
 }
 
+
 footer>a{
   font-family: cursive;
   font-size: 16px;
   text-align: center;
   border-width: 1px;
-  margin-left: 20px;
+  line-height: 30px;
+  float: left;
+  margin-left: 30%;
+  position: relative;
 }
 
 footer>a:hover{
   border-color: #007bff;
+}
 
 
+.pop{
+  top: 0;
+  position: absolute;
+  width: 100%;
+  height: 110%;
+  background-color: black;
+  opacity: 0.5;
+  z-index: 9999;
+}
+
+
+
+.popup{
+  left: 30%;
+  top: 25%;
+  position: absolute;
+  height: 23.1%;
+  width: 40%;
+  z-index: 9999;
+  border-radius: 10px;
+}
+
+.popup>header{
+  margin-left: 10%;
+  text-align: center;
+  height: 30px;
+  width: 80%;
+  background-color: white;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+
+
+.prompt{
+  margin-left: 2%;
+  position: relative;
+float: left;
+font-size: 20px;
+font-family: cursive;
+}
+
+.off-button{
+  margin-right: 1%;
+  z-index: 100000;
+  position: relative;
+  border-top-right-radius: 10px;
+  float: right;
+  background-color: white;
+  font-size: 20;
+  width: 20px;
+  border: none;
+  height: 30px;
+  text-decoration: none;
+
+}
+
+.off-button>img{
+  width: 250%;
+  margin-right: 3%;
+  padding-right: 1%;
+}
+
+.error-img{
+  width: 100%;
+  height: 100%;
+}
+
+.error{
+  z-index: inherit;
+  /* background-image: url("../img/error.png"); */
+  background-repeat: no-repeat;
+  border-bottom:10px;
 }

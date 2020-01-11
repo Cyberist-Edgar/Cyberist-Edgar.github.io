@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title >Cyberist Edgar</title>
+
+    <script async defer src='../../js/main.js'></script>
+    <script async src="./js/src_change.js"></script>
+    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+
+    <link rel="icon" type="image/x-icon" href="../../img/profile.jpg">
+
+    <link rel="stylesheet" media="screen" href="../../css/style.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Norican&display=swap" rel="stylesheet">
+
+<style>
+
+.guide{
+    position: absolute;
+    z-index: 99;
+    height: 50px;
+    width: 50px;
+    top:50%;
+    
+}
+
+.guide:hover{
+    cursor: pointer;
+
+}
+
+
+.previous{
+    left: 2%;
+}
+.next{
+    right: 2%;
+
+}
+
+</style>
+</head>
+
+
+
+<body>
+    <div class='container'>
+
+        <header>
+         
+            <div id='title' title="An undergraduate student majored in Cyber Security in SJTU">
+                Cyberist Edgar
+            </div>
+            <div>
+                <a class="item" href="./html/wechat.html" target="_blank">Wechat</a>
+                <a class="item" href="https://blog.csdn.net/weixin_44676081" target="_blank">CSDN</a>
+                <a class="item" href="https://git.io/Jejuy" target="_blank">Github</a>
+            </div>
+
+        </header>
+        <hr />
+
+        <div id='text-area'>
+
+            <div class="float-right" id='float-right'>
+                <a href="../../index.html" target="_blank" title="Back to the main page">
+                    <div id='float-right-svg'><img src="../../img/gear.svg" /></div>
+                </a></div>
+
+                <div >
+                    <a onclick="change(true)" class="previous guide" title="None">
+                        <img width=20 src="./img/previous.svg"/>
+                    </a>
+                    <a   onclick="change(false)" class="next guide" title="Python-installation">
+                        <img width=10 src="./img/next.svg" />
+                    </a>
+                </div>   
+            <div id='main'>
+
+                <div class="text">
+                    <p>
+                        When you are born, you was crying and everyone around you was smiling, live your life so that
+                        when you die, you are the one who is smiling and everyone around you is crying.
+                    </p>
+                </div>
+                <style>
+                    iframe {
+                        margin-top: 2px;
+                        width: 90%;
+                        margin: auto;
+                        margin-left: 5%;
+                        height: 600px;
+                        border-radius: 10px;
+                    }
+                </style>
+
+                <div>
+                    <iframe src='Python-Introduction.html'>
+
+                    </iframe>
+                </div>
+            </div>
+        </div>
+        <hr />
+
+        <footer>
+            <div><a href="https://git.io/Jejuy">Contact me</a></div>
+            <div><a href="../../html/wechat.html">Follow me</a></div>
+        </footer>
+
+    </div>
+
+
+    <div id='particles-js'>
+    </div>
+</body>
+
+<script src="../../js/particles.min.js"></script>
+<script src="../../js/app.js"></script>
+
+
+
+</html>

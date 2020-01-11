@@ -9,7 +9,17 @@ function transform(){
 
 setInterval(transform,100);
 
+function show(){
+    var pop = document.getElementsByClassName("pop")[0];
+    pop.style.display = 'block';
+    var popup = document.getElementsByClassName("popup")[0];
+    popup.style.display = "block";
+}
 
-var gear = document.getElementById("float-right");
-console.log(gear.height)
+function off(){
+    var pop = document.getElementsByClassName("pop")[0];
+    pop.style.display = 'none';
+    var popup = document.getElementsByClassName("popup")[0];
+    popup.style.display = "none ";
 
+}

@@ -41,7 +41,7 @@
         <div id='text-area'>
             
         <div class="float-right" id='float-right'>
-            <a href="https://github.com/Cyberist-Edgar" target="_blank">
+            <a href="https://github.com/Cyberist-Edgar" target="_blank" title="Github">
                 <div id='float-right-svg'><img src="./img/gear.svg"/></div>
             </a></div>
             <div id='main'>
@@ -53,22 +53,26 @@
                     </p>
                 </div>
 
-                <a href='' class="data-item">
+                <a href='./html/py/index.html' class="data-item">
                     <div class="item-title">Python</div>
                     <div class="item-description">A wonderful programming language used in many aspects</div>
                 </a>
-                <a href='' class="data-item">
+                <a  class="data-item" onclick="show()">
+                    <div class="item-title">C</div>
+                    <div class="item-description">A highly efficient language used widely, the substrate language of python</div>
+                </a>
+                <a  class="data-item" onclick="show()">
                     <div class="item-title">Linux</div>
                     <div class="item-description">A open-source platform, a place for developer and also hacker</div>
                 </a>
-
-                <a href='' class="data-item">
-                    <div class="item-title">SQL</div>
+ h
+                <a class="data-item">
+                    <div class="item-title" onclick="show()">SQL</div>
                     <div class="item-description">A wonderful database langauge used to maintain your data</div>
                 </a>
 
-                <a href='' class="data-item">
-                    <div class="item-title">Cyber Security</div>
+                <a  class="data-item" onclick="show()">
+                    <div class="item-title">Cyber Security </div>
                     <div class="item-description">A major used many tools to make your world more secure</div>
                 </a>
 
@@ -81,7 +85,7 @@
 
 
 
-
+        
         <hr />
 
         
@@ -95,6 +99,22 @@
 
 
     <div id='particles-js'>
+    </div>
+    <div class="pop" style="display: none;"></div>
+
+    <div class="popup" style="display: none;" >
+        <header>
+            <div class="prompt">Not found</div>
+            <div class="turnoff">
+                <button class="off-button" onclick="off()"><img src="./img/x.svg"/></button>
+            </div>
+        </header>
+            <div class="error">
+                <div class="error-img">
+                    <img src="./img/error.png">
+                </div>
+            </div>
+        
     </div>
 </body>
 
